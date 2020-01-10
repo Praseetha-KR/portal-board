@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipdb = "*"
+flake8 = "*"
+
+[packages]
+tweepy = "==3.8.0"
+python-dotenv = "==0.10.3"
+fastdotcom = "==0.0.3"
+attrs = "==19.3.0"
+uptime = "==3.0.1"
+coloredlogs = "==10.0"
+
+[requires]
+python_version = "3.7"
